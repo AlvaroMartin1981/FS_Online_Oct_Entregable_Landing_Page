@@ -1,8 +1,20 @@
-section {
+
+
+
+body {
+    background-color: beige;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header-top {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
      background-color: white;
+     align-items: center;
+     padding: 20px;
+     gap: 20px;
      }
 nav {
     display: flex;
@@ -11,6 +23,10 @@ nav {
     text-align: center;
     text-decoration-color: solid #009d95;
 }
+.iconos {
+    display: flex;
+}
+
 .Cuidado {
     color: solid #009d95;
     text-decoration-color: solid #009d95;
