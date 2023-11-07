@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     background-color: white;
+     }
+nav {
+    display: flex;
+    flex-direction: row;
+    color: solid #009d95;
+    text-align: center;
+    text-decoration-color: solid #009d95;
+}
+.Cuidado {
+    color: solid #009d95;
+    text-decoration-color: solid #009d95;
+}
+@media screen and (max-width: 480px) {
+        nav {
+            background-color: green;
+            transition: all 1s linear;
+             }
+            }             
+@media (min-width: 768px) {
+        nav  {
+    
+        transition: all 1s linear;
+    }
+}
